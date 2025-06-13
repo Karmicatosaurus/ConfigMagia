@@ -6,7 +6,7 @@ use InvalidArgumentException;
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
 
-use Magia\Config\ExtensionTwig\PurifyExtension;
+use Magia\Config\ExtensionsTwig\PurifyExtension;
 use Magia\Config\ConfigDotenv;
 
 ConfigDotenv::getInstance();
