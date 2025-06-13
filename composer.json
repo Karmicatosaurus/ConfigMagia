@@ -1,13 +1,23 @@
 {
-  "require": {
-    "php": "^8.2",
-    "vlucas/phpdotenv": "^5.5",
-    "twig/twig": "^3.0",
-    "ezyang/htmlpurifier": "^4.18"
-  },  
+  "name": "karmicatosaurus/magia",
+  "description": "Un petit système de blog qui a du chien.",
+  "type":"project",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Karmicatosaurus",
+      "email": "dev@karmicat.fr"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "Magia\\": "src/"
     }
+  },
+  "require": {
+    "php": "^8.2",
+    "vlucas/phpdotenv": "^5.6",
+    "twig/twig": "^3.21",
+    "ezyang/htmlpurifier": "^4.18"
   }
 }
