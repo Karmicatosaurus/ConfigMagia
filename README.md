@@ -4,9 +4,12 @@
 
 # Fichiers de configuration de Magia
 
-`ConfigBdd.php` est le fichier d'initialisation de la connexion à la base de données via PDO.
+| Fichiers | Utilisation |
+|-----------------|--------|
+| ConfigBdd.php| Initialisation de la connexion à la base de données via PDO   |
+| ChargeDotenv.php      | Initialisation du chargement des variables d’environnement via la bibliothèque `vlucas/phpdotenv`  |
+| ConfigTwig.php| Initialisation du moteur de template Twig   |
 
-`ChargeDotenv.php` est le fichier d'initialisation du chargement des variables d’environnement via la bibliothèque `vlucas/phpdotenv`
 
 ## Prérequis
 
