@@ -1,0 +1,13 @@
+{
+  "require": {
+    "php": "^8.2",
+    "vlucas/phpdotenv": "^5.5",
+    "twig/twig": "^3.0",
+    "ezyang/htmlpurifier": "^4.18"
+  },  
+  "autoload": {
+    "psr-4": {
+      "Magia\\": "src/"
+    }
+  }
+}
