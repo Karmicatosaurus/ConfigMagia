@@ -7,9 +7,10 @@ use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
 
 use Magia\Config\ExtensionsTwig\PurifyExtension;
-use Magia\Config\ConfigDotenv;
+use Magia\Config\ChargeDotenv;
 
-ConfigDotenv::getInstance();
+// Chargement des variables d'environnement
+ChargeDotenv::charge();
 
 class ConfigTwig
 {
