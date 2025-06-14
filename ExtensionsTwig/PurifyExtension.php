@@ -26,7 +26,7 @@ class PurifyExtension extends AbstractExtension
         // Configuration de base de HTML Purifier
         $config = HTMLPurifier_Config::createDefault();
 
-        $cachePath = __DIR__ . '/../../../var/cache/htmlpurifier';
+        $cachePath = __DIR__ . '/../../../cache/htmlpurifier';
         $config->set('Cache.SerializerPath', $cachePath);        
 
         $config->set('HTML.TargetBlank', true);
